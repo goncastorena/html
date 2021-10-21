@@ -8,7 +8,7 @@ html {
   display: block;
   border-radius: 0;
   color: #fff;
-  background: #1973b8;
+  background: #2ba883;
   border: 0;
   padding: 16px 32px;
   line-height: 24px;
@@ -25,7 +25,7 @@ html {
   display: block;
   border-radius: 0;
   color: #fff;
-  background: #1973b8;
+  background: #2ba883;
   border: 0;
   padding: 16px 32px;
   line-height: 24px;
@@ -43,7 +43,7 @@ html {
 }
 
 .modal-backdrop {
-  background-color: rgba(4, 50, 99, 0.9);
+  background-color: rgba(5, 51, 22, 0.9);
 }
 
 .modal-backdrop.show {
@@ -71,7 +71,7 @@ html {
 }
 
 .icon-info.grey:before {
-  background-image: url(../images/icon-info-grey.svg);
+  background-image: url();
 }
 
 .icon-info:before {
@@ -79,7 +79,7 @@ html {
   width: 15px;
   height: 15px;
   background-repeat: no-repeat;
-  background-image: url(../images/icon-info.svg);
+  background-image: url();
   background-size: contain;
 }
 
@@ -140,7 +140,7 @@ ul, ol {
   width: 2rem;
   height: 2rem;
   vertical-align: text-bottom;
-  background-image: url(https://storage.googleapis.com/bbva-front.appspot.com/bbva.front/resources/spinner/Spinner_White.svg);
+  background-image: url();
   background-size: contain;
   -webkit-animation: spin 1300ms ease infinite;
           animation: spin 1300ms ease infinite;
@@ -212,7 +212,7 @@ nav.navbar {
     padding: 16px;
   }
   nav.navbar .scroll_mm ul .card_menu_movil {
-    background-color: #004481;
+    background-color: #043a10;
     padding: 16px;
     text-align: center;
     height: 100%;
@@ -263,7 +263,7 @@ nav.navbar {
     overflow: auto;
   }
   nav.navbar .position_fixed_movil {
-    background-color: #072146;
+    background-color: #043a10;
     padding: 28px 0;
     z-index: 99999;
     position: relative;
@@ -291,7 +291,7 @@ nav.navbar {
 }
 
 nav.navbar.header-menu {
-  background-color: #072146;
+  background-color: #075817;
   padding: 0;
 }
 
@@ -406,7 +406,7 @@ nav.navbar.header-menu .navbar-nav ul .nav-item .nav-link.nav-active:after {
 
 nav.navbar.header-menu .navbar-nav ul .nav-item .nav-link .icon-arrow:after {
   content: '';
-  background-image: url(downarrow_120663.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -462,7 +462,7 @@ nav.navbar.header-menu .navbar-nav ul .nav-main .main-list {
 }
 
 nav.navbar.header-menu .navbar-nav ul .nav-main .main-list .nav-item {
-  background: #004481;
+  background: #00813a;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
@@ -499,7 +499,7 @@ nav.navbar.header-menu .navbar-nav ul .nav-main .main-list .nav-item a p {
 }
 
 nav.navbar.header-menu .navbar-nav ul .nav-main .dropdown-main-content {
-  background-color: #043263;
+  background-color: #046346;
   z-index: 2;
   width: 100%;
 }
@@ -559,7 +559,7 @@ nav.navbar.header-menu .right-container .language a#dropdownLang, nav.navbar.hea
 }
 
 nav.navbar.header-menu .right-container .language a#dropdownLang:after, nav.navbar.header-menu .right-container .language a#dropdownLang-resp:after {
-  background-image: url(downarrow_120663.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   content: '';
   background-size: contain;
@@ -608,7 +608,7 @@ nav.navbar.header-menu .navbar-toggler {
 }
 
 nav.navbar.header-menu .navbar-toggler .navbar-toggler-icon {
-  background: url(../images/x-icon-white.png) no-repeat center;
+  background: url() no-repeat center;
   background-size: contain;
   width: 24px;
   height: 24px;
@@ -709,7 +709,7 @@ nav.navbar.header-menu .navbar-toggler.collapsed .navbar-toggler-icon {
 
 .accordion-mobile .card .card-header .icon-arrow:after {
   content: '';
-  background-image: url(downarrow_120663.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 16px;
@@ -796,7 +796,7 @@ nav.navbar.header-menu .navbar-toggler.collapsed .navbar-toggler-icon {
 .breadcrumb .breadcrumb-item::after {
   content: "";
   margin: 0 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -1112,7 +1112,7 @@ span.spantop {
 }
 */
 .video-home {
-  background-color: #5ac4c4;
+  background-color: #31cea6;
   position: relative;
 }
 
@@ -1174,7 +1174,7 @@ span.spantop {
 
 .video-home .corner:before {
   content: '';
-  background-image: url("https://bbva-talent-culture.appspot.com/wp-content/themes/talent-culture/images/borde-header.svg");
+  background-image: url();
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -1276,7 +1276,7 @@ span.spantop {
 
 .video-home-resp .overflow-hidden .corner:before {
   content: '';
-  background-image: url("https://bbva-talent-culture.appspot.com/wp-content/themes/talent-culture/images/triangle-mobile.svg");
+  background-image: url();
   height: 100%;
   width: 101%;
   background-repeat: no-repeat;
@@ -1342,7 +1342,7 @@ span.spantop {
 .video-home-modal .close {
   color: #fff;
   content: "";
-  background-image: url(../images/x-icon-white.png);
+  background-image: url();
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1448,7 +1448,7 @@ span.spantop {
 }
 
 .cornestonne-component {
-  background-color: #f4f4f4;
+  background-color: #bde2bf;
   z-index: 2;
   font-size: 14px;
 }
@@ -1689,7 +1689,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .item1 {
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
 }
@@ -1697,6 +1697,8 @@ span.spantop {
 .cornestonne-component .container .corner-grid .item2 {
   grid-column-start: 1;
   grid-column-end: 2;
+  
+
 }
 
 .cornestonne-component .container .corner-grid .item3 {
@@ -1722,7 +1724,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info {
-  background-color: #043263;
+  background-color: #074e19;
   color: #fff;
   display: -webkit-box;
   display: flex;
@@ -1917,7 +1919,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal a .icon-email:before {
   content: '';
-  background: url(../images/email.png) no-repeat;
+  background: url(images/mail-icon.png) no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -1925,7 +1927,7 @@ span.spantop {
 }
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal a .icon-calendar:before {
   content: '';
-  background: url(../images/calendar-blue.png) no-repeat;
+  background: url() no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -1977,7 +1979,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal-responsive a .icon-email:before {
   content: '';
-  background: url(../images/email.png) no-repeat;
+  background: url(images/mail-icon.png) no-repeat;
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -2078,7 +2080,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-contacto .contacto-text a .icon-email:before {
   content: '';
-  background: url(../images/email.png) no-repeat;
+  background: url(images/mail-icon.png) no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -2122,7 +2124,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-footer a .icon-email:after {
   content: '';
-  background: url(../images/email.png) no-repeat;
+  background: url(images/mail-icon.png) no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -2317,12 +2319,12 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .analitic-info-content .feedback .valorations .icon-caret-up:after {
-  background-image: url(../images/up-copy-2.png);
+  background-image: url(images/arrow-up.png);
   margin-right: 8px;
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .analitic-info-content .feedback .valorations .icon-caret-down:after {
-  background-image: url(../images/down-copy-2.png);
+  background-image: url(images/arrow-down.png);
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .analitic-info-content .feedback .text {
@@ -3107,7 +3109,7 @@ span.spantop {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(../images/coins-white.svg) no-repeat;
+  background: url() no-repeat;
   background-size: contain;
   margin-right: 8px;
 }
@@ -3491,7 +3493,7 @@ span.spantop {
 
 .cornestonne-component .container .last-procces-mobility .data-right .tab-pane .alert i.icon-bell:before {
   content: '';
-  background-image: url(../images/alert.png);
+  background-image: url();
   background-size: contain;
   display: inline-block;
   width: 24px;
@@ -3783,7 +3785,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .last-procces-mobility .data-right .timeline-container .done:before, .cornestonne-component .container .last-procces-mobility .data-right .timeline-container .do:before {
-  background: url(../images/checkmark.png) no-repeat;
+  background: url() no-repeat;
   background-size: 100%;
   color: transparent !important;
   border: 0 !important;
@@ -3919,7 +3921,7 @@ span.spantop {
   width: 20px;
   height: 20px;
   position: absolute;
-  background-image: url("../images/bullet.svg");
+  background-image: url("");
   background-size: cover;
   background-position: center;
   left: 0;
@@ -4056,7 +4058,7 @@ span.spantop {
   width: 24px;
   height: 24px;
   margin-right: 8px;
-  background: url(../images/calendar-blue.png) no-repeat;
+  background: url() no-repeat;
   background-size: contain;
 }
 
@@ -4159,7 +4161,7 @@ span.spantop {
 
 .cornestonne-component .calendar-block .calendar-details .events-container .event .event-description.truncate:after {
   content: '';
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 12px;
@@ -4666,12 +4668,12 @@ span.spantop {
 }
 
 .last_news-component .container .card-blog .title-post .icon.internal:before {
-  background: url(https://bbva-talent-culture.appspot.com/wp-content/themes/talent-culture/images/press.png);
+  background: url();
   background-size: contain;
 }
 
 .last_news-component .container .card-blog .title-post .icon.external:before {
-  background: url(../images/arrow-filled-diagonal-white.png);
+  background: url();
   background-size: contain;
 }
 
@@ -4906,7 +4908,7 @@ span.spantop {
 
 .no-breadcrumbs-component .btn-blue:before {
   content: "";
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   background-repeat: no-repeat;
@@ -5483,7 +5485,7 @@ span.spantop {
   content: "";
   width: 24px;
   height: 24px;
-  background: url(../images/arrow.png) no-repeat;
+  background: url() no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
@@ -5775,7 +5777,7 @@ section.tool-section-white .card-text ul li a {
 
 .faqs-modal button.close {
   content: "";
-  background-image: url(../images/unflilled.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center center;
@@ -5787,7 +5789,7 @@ section.tool-section-white .card-text ul li a {
 .faqs-modal .prev:before {
   content: "";
   margin: 0px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -5801,7 +5803,7 @@ section.tool-section-white .card-text ul li a {
 .faqs-modal .next:after {
   content: "";
   margin: 0px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -5966,7 +5968,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-test input[type="radio"]:checked + label .radio-tests .circle-icon {
-  background-image: url(../images/icon-radio-on.png);
+  background-image: url();
   cursor: pointer;
 }
 
@@ -6044,7 +6046,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-test label .radio-tests .circle-icon {
-  background-image: url(../images/icon-radio-off.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6521,7 +6523,7 @@ section.tool-section-white .card-text ul li a {
 
 .recomendacion-dudas .content-gestor .content-gestor-description .link-email .icon-mail:before {
   content: '';
-  background: url(../images/email-blue-dark.png) no-repeat;
+  background: url() no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -6595,7 +6597,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps a.link_back_step::before {
   content: "";
   margin: 4px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6715,7 +6717,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step5 a.next.link-next-step.container::after {
   content: "";
   margin: 5px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6727,7 +6729,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step5 a.btn.prev.order-3.order-md-1.btn-blue.link_back_step::before {
   content: "";
   margin: 4px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6741,7 +6743,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step5 a.link_back_step::before {
   content: "";
   margin: 4px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6872,7 +6874,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step4 a.next.link-next-step.container::after {
   content: "";
   margin: 5px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6884,7 +6886,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step4 a.btn.prev.order-3.order-md-1.btn-blue.link_back_step::before {
   content: "";
   margin: 4px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6978,7 +6980,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step3 a.next.link-next-step.container::after {
   content: "";
   margin: 5px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -6990,7 +6992,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step3 a.btn.prev.order-3.order-md-1.btn-blue.link_back_step::before {
   content: "";
   margin: 4px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -7073,7 +7075,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step2 a.next.link-next-step.container::after {
   content: "";
   margin: 5px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -7085,7 +7087,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step2 a.btn.prev.order-3.order-md-1.btn-blue.link_back_step::before {
   content: "";
   margin: 4px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(image/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -7160,7 +7162,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps #step1 a.next.link-next-step.container::after {
   content: "";
   margin: 5px 8px;
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -7485,7 +7487,7 @@ section.tool-section-white .card-text ul li a {
 
 .form-steps .list-check-item > label:before {
   content: "";
-  background-image: url(../images/icon-check-off.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -7496,7 +7498,7 @@ section.tool-section-white .card-text ul li a {
 
 .form-steps .list-check-item > input:checked ~ label:after {
   content: "";
-  background-image: url(../images/icon-check-on.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -9334,26 +9336,26 @@ footer .modal-language .modal-content .close {
 
 @font-face {
   font-family: "BentonBook";
-  src: url("../fonts/BentonSansBBVA-Book.eot");
-  src: url("../fonts/BentonSansBBVA-Book.woff") format("woff"), url("../fonts/BentonSansBBVA-Book.svg") format("svg");
+  src: url("");
+  src: url("") format("woff"), url("") format("svg");
 }
 
 @font-face {
   font-family: "BentonBold";
-  src: url("../fonts/BentonSansBBVA-Bold.eot");
-  src: url("../fonts/BentonSansBBVA-Bold.woff") format("woff"), url("../fonts/BentonSansBBVA-Bold.svg") format("svg");
+  src: url("");
+  src: url("") format("woff"), url("") format("svg");
 }
 
 @font-face {
   font-family: "BentonMedium";
-  src: url("../fonts/BentonSansBBVA-Medium.eot");
-  src: url("../fonts/BentonSansBBVA-Medium.woff") format("woff"), url("../fonts/BentonSansBBVA-Medium.svg") format("svg");
+  src: url("");
+  src: url("") format("woff"), url("") format("svg");
 }
 
 @font-face {
   font-family: "BentonLight";
-  src: url("../fonts/BentonSansBBVA-Light.eot");
-  src: url("../fonts/BentonSansBBVA-Light.woff") format("woff"), url("../fonts/BentonSansBBVA-Light.svg") format("svg");
+  src: url("");
+  src: url("") format("woff"), url("") format("svg");
 }
 
 .fc {
@@ -10115,7 +10117,7 @@ from https://feathericons.com/ and built with IcoMoon
 
 .fc-icon-chevron-left:before {
   content: '';
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 12px;
@@ -10128,7 +10130,7 @@ from https://feathericons.com/ and built with IcoMoon
 
 .fc-icon-chevron-right:before {
   content: '';
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 12px;
@@ -10139,7 +10141,7 @@ from https://feathericons.com/ and built with IcoMoon
 
 .fc-icon-chevrons-left:before {
   content: '';
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 12px;
@@ -10152,7 +10154,7 @@ from https://feathericons.com/ and built with IcoMoon
 
 .fc-icon-chevrons-right:before {
   content: '';
-  background-image: url(arrow-breadcrumb.png);
+  background-image: url(images/down-arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 12px;
