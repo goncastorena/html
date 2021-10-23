@@ -284,14 +284,14 @@ img.emoji {
 </nav ><div class="video-home-resp d-md-none" >
 	<div class="container-fluid" >
 		<div class="row overflow-hidden" >
-			<div class="col-md-6 corner d-flex flex-column justify-content-center align-items-center" style="background-image: url(images/avatar.jpg);" >
+			<div class="col-md-6 corner d-flex flex-column justify-content-center align-items-center" style="background-image: url(images/fondo.png);" >
 		
 				<p class='icon_play_text' ></p >
 			</div >
 			<div class="col-md-6 mask-triangle" >
 				<div class="group-text" >
-					<h2 class="title-home" >Un mundo de oportunidades para tu desarrollo profesional </h2 >
-					<p class="subtitle-home" >Conócete, mejora y explora nuevos caminos y aprovecha todas las oportunidades que te ofrecemos</p >
+					<h2 class="title-home" >Un mundo de oportunidades para crecer y ayudar al planeta </h2 >
+					<p class="subtitle-home" >Conócete, mejora y explora nuevos caminos aprovechando todas las oportunidades que tenemos para ti.</p >
 				</div >
 			</div >
 		</div >
@@ -306,10 +306,7 @@ img.emoji {
 					<p class="subtitle-home" >Conócete, mejora y explora nuevos caminos y aprovecha todas las oportunidades que te ofrecemos</p >
 				</div >
 			</div >
-			<div class="col-md-6 corner d-flex justify-content-center align-items-center" style="background-image: url(https://storage.googleapis.com/bbva-talent-culture.appspot.com/1/2019/11/img@3x-1.png);" >
-				<button class="video-play d-flex align-items-center" type="button" data-toggle="modal" data-target="#myModalVideo" >
-					<span class="icon-play" data-id-video='1DFz9LwF7stXmX5CWG25UULkXGPSCjtIh' ></span >
-				</button >
+			<div class="col-md-6 corner d-flex justify-content-center align-items-center" style="background-image: url(images/fondo.png);" >
 				<p class='icon_play_text' ></p >
 			</div >
 		</div >
@@ -375,7 +372,7 @@ img.emoji {
 									<img class="rounded-circle img-fluid" src="images/ID.png">
 								</div>
 								<div class="user-personal text-center">
-									<div class="user-tittle">Nombre de empresa</div>
+									<div class="user-tittle" id="hola">holamundo</div>
 									<span>Rubro de la empresa</span>
 									<a class target="_blank" href="">ver detalles de la empresa</a>
 								</div>
@@ -407,7 +404,7 @@ img.emoji {
 												</div>
 
 													<div class="info-text">
-														<p class="tittle">Certificacion BBVA</p>
+														<p class="tittle"><b>Certificacion BBVA</b></p>
 														<p class="description">tu empresa cuenta con la certificacion ORO asignada por BBVA</p>
 														<div class="links-list">
 															<a class href="" target="_blank">Ver como mejorar mi certificacion</a> 
@@ -432,7 +429,7 @@ img.emoji {
 											</div>
 
 												<div class="info-text">
-													<p class="tittle">Mi resultado general</p>
+													<p class="tittle"><b> Resultado General</b></p>
 													<p class="description">Tienes 10 valores por encima del promedio nacional y del requerido por ley y 0 por mejorar</p>
 													<div class="links-list">
 														<a class href="" target="_blank">Ver mi reporte a detalle</a> 
@@ -450,8 +447,9 @@ img.emoji {
 													</div>
 													</div>
 												<div class="data">
-													<p class="tittle">Mi plan de mejora</p>
-													<p class="primary-plan">Periodo 2021 - 2022</p>
+													<p class="tittle"><b>Plan de mejora</b></p>
+													<p class="primary-plan"><i>Periodo 2021 - 2022</i></p>
+													<br>
 													<p class="description">vas por buen camino, sigue asi </p>
 												</div>
 											</div>
@@ -466,7 +464,7 @@ img.emoji {
 											</div>
 
 												<div class="info-text">
-													<p class="tittle">Mis emisiones</p>
+													<p class="tittle"><b>Mis Emisiones</b></p>
 													<p class="description">tu empresa genera un estimado de 100 mil huellas de carbono </p>
 													<div class="links-list">
 														<a class href="" target="_blank">Ver mi reporte a detalle</a> 
@@ -555,7 +553,7 @@ img.emoji {
 													</div >
 						<div class="card-body information" >
 							<h3 class="title" >Explora nuevos caminos </h3 >
-							<p class="description" >Descubre otros roles y oportunidades dentro del Grupo. Identifica nuevos caminos que te puedan interesar y las áreas de mejora que necesitas desarrollar.   </p >
+							<p class="description" >Descubre otros roles y oportunidades dentro del Grupo. Identifica nuevos caminos que sean de tu interes y las áreas de mejora que necesitas desarrollar.   </p >
 							<div class="list-part" >
 								<ul >
 																														<li >
@@ -729,7 +727,11 @@ img.emoji {
 
 <script>
 	function traer(){
-		fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=aaa&bbb=csawkghsjraf').then(response => response.json()).then(json => console.log(json));
+		var hola="";
+		fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=aaa&bbb=csawkghsjraf').then(response => response.json()).then(json => hola= json.Item.bbb);
+var hola="";
+console.log(hola.length);
+		
 		};
 </script>
 </body>
