@@ -1293,7 +1293,7 @@ span.spantop {
 .video-home-resp .overflow-hidden .mask-triangle {
   padding-top: 24px;
   padding-bottom: 80px;
-  background-color: #c45a8c;
+  background-color: #49A5E6;
 }
 
 .video-home-resp .overflow-hidden .mask-triangle .group-text .title-home {
@@ -4837,7 +4837,7 @@ span.spantop {
 
 .valoration-component .container .valoration-container .stars-container > label {
   margin: 8px;
-  background-image: url(https://bbva-talent-culture.appspot.com/wp-content/themes/talent-culture/images/star-void.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -4850,7 +4850,7 @@ span.spantop {
 }
 
 .valoration-component .container .valoration-container .stars-container > label.active {
-  background-image: url(https://bbva-talent-culture.appspot.com/wp-content/themes/talent-culture/images/star-full.png);
+  background-image: url();
   cursor: pointer;
 }
 
