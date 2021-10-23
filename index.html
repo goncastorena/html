@@ -744,12 +744,9 @@ img.emoji {
 </footer >
 
 <script>
-	var contenido = document.querySelector('#contenido')
 	function traer(){
-		fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/api?TableName=ejemplo' ).then(response => response.json()).then(json => console.log(json))
-	}
-
-
+		fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=ejemplo',{mode: 'no-cors'}).then(response => response.json()).then(json => console.log(json));
+		};
 </script>
 </body>
-</html>
+</html>	
