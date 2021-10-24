@@ -35,26 +35,31 @@
 
 <body class="home page-template-default page page-id-1168 logged-in" data-spy="scroll" data-target=".nav-middle"
 	data-referer="https://bbva-talent-culture.appspot.com/conocete/" data-actual-page='Tu desarrollo'
+
 	onload="traerResultados()">
 	<script>
+		var anchor = window.location.search;
+        let params = new URLSearchParams(anchor);
+        let q = params.get("username");
+        var id = q;
 		function traerResultados() {
 			var datos = "";
 			let name = "";
-			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=Hack-Resultados&_id=123').then(res => res.json()).then(data => {
+			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=Hack-Resultados&_id='+id).then(res => res.json()).then(data => {
 				var circle = data.Item.percentil / 100;
 				document.getElementById("name").innerHTML = data.Item.username;
 				document.getElementById("name1").innerHTML = data.Item.username;
 				document.getElementById("medalla").innerHTML = getMedalla(data.Item.medalla);
-				document.getElementById("factoresPositivos1").innerHTML = data.Item.factores_positivos;
-				document.getElementById("factoresPositivos2").innerHTML = data.Item.factores_positivos;
-				document.getElementById("factoresNegativos").innerHTML = (6 - data.Item.factores_positivos);
+				document.getElementById("factoresPositivos1").innerHTML = data.Item.factores;
+				document.getElementById("factoresPositivos2").innerHTML = data.Item.factores;
+				document.getElementById("factoresNegativos").innerHTML = (6 - data.Item.factores);
 				document.getElementById("percentil").innerHTML = data.Item.percentil;
 				document.getElementById("mensajePercentil").innerHTML = getMsjPercentil(data.Item.percentil);
 				$('#circle').circleProgress({ value: circle, size: 80, startAngle: 80, fill: "green" });
 				document.getElementById("kilosHC").innerHTML = data.Item.huella_total / 1000;
-				document.getElementById("conoceteMsj").innerHTML = getConoceteMsj(data.Item.conocete);
-				document.getElementById("mejoraMsj").innerHTML = getMejoraMsj(data.Item.mejorar);
-				document.getElementById("exploraMsj").innerHTML = getExploraMsj(data.Item.explora);
+				document.getElementById("conoceteMsj").innerHTML = getConoceteMsj(data.Item.percentil);
+				document.getElementById("mejoraMsj").innerHTML = getMejoraMsj(data.Item.percentil);
+				document.getElementById("exploraMsj").innerHTML = getExploraMsj(data.Item.percentil);
 
 
 			});
@@ -84,26 +89,25 @@
 
 
 		function getConoceteMsj(num) {
-			if (num == 0) return "Ayúdanos a conocerte mejor para ayudarte con oportunidades únicas y a abrirte las puertas en favor de la ecología."
-			else if (num == 1) return "Ayúdanos a ofrecerte oportunidades para mejorar tus actividades y abrir más oportunidades."
-			else if (num == 2) return "¡Aún se puede mejorar! No te quedes atrás y conoce las oportunidades que tenemos para ti."
-			else if (num == 3) return "Conoce cómo seguir protegiendo el medio ambiente y seguir siendo una empresa responsable ecológicamente."
+			if (num <25 ) return "Ayúdanos a conocerte mejor para ayudarte con oportunidades únicas y a abrirte las puertas en favor de la ecología."
+			else if (num  <50) return "Ayúdanos a ofrecerte oportunidades para mejorar tus actividades y abrir más oportunidades."
+			else if (num < 75) return "¡Aún se puede mejorar! No te quedes atrás y conoce las oportunidades que tenemos para ti."
+			else if (num <=100 ) return "Conoce cómo seguir protegiendo el medio ambiente y seguir siendo una empresa responsable ecológicamente."
 
 		}
 
 		function getMejoraMsj(num) {
-			if (num == 0) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
-			else if (num == 1) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
-			else if (num == 2) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
-			else if (num == 3) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
+			if (num <25 ) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
+			else if (num  <50) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
+			else if (num < 75) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
+			else if (num <=100 ) return "Queremos crecer contigo, conoce más información de nuestros planes de crecimiento."
 
 		}
 		function getExploraMsj(num) {
-			if (num == 0) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología."
-			else if (num == 1) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología."
-			else if (num == 2) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología."
-			else if (num == 3) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología."
-
+			if (num <25 ) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología"
+			else if (num  <50) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología."
+			else if (num < 75) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología."
+			else if (num <=100 ) return "Exploremos juntos cómo mejorar tus operaciones en pro de la ecología."
 		}
 
 	</script>
