@@ -34,14 +34,29 @@
 </head>
 
 <body class="home page-template-default page page-id-1168 logged-in" data-spy="scroll" data-target=".nav-middle"
-	data-referer="https://bbva-talent-culture.appspot.com/conocete/" data-actual-page='Tu desarrollo' onload="traer()">
+	data-referer="https://bbva-talent-culture.appspot.com/conocete/" data-actual-page='Tu desarrollo'
+	onload="traerResultados()">
 	<script>
-		function traer() {
+		function traerResultados() {
 			var datos = "";
 			let name = "";
-			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=aaa&bbb=csawkghsjraf').then(res => res.json()).then(data => {
-				document.getElementById("name").innerHTML = data.Item.bbb;
-				document.getElementById("name1").innerHTML = data.Item.bbb
+			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=Hack-Resultados&_id=123').then(res => res.json()).then(data => {
+				var circle = data.Item.percentil / 100;
+				document.getElementById("name").innerHTML = data.Item.username;
+				document.getElementById("name1").innerHTML = data.Item.username;
+				document.getElementById("medalla").innerHTML = getMedalla(data.Item.medalla);
+				document.getElementById("factoresPositivos1").innerHTML = data.Item.factores_positivos;
+				document.getElementById("factoresPositivos2").innerHTML = data.Item.factores_positivos;
+				document.getElementById("factoresNegativos").innerHTML = (6 - data.Item.factores_positivos);
+				document.getElementById("percentil").innerHTML = data.Item.percentil;
+				document.getElementById("mensajePercentil").innerHTML = getMsjPercentil(data.Item.percentil);
+				$('#circle').circleProgress({ value: circle, size: 80, startAngle: 80, fill: "green" });
+				document.getElementById("kilosHC").innerHTML = data.Item.huella_total / 1000;
+				document.getElementById("conoceteMsj").innerHTML = getConoceteMsj(data.Item.conocete);
+				document.getElementById("mejoraMsj").innerHTML = getMejoraMsj(data.Item.mejorar);
+				document.getElementById("exploraMsj").innerHTML = getExploraMsj(data.Item.explora);
+
+
 			});
 
 
@@ -49,12 +64,53 @@
 
 		};
 
+		function getMedalla(num) {
+			if (num == 0) {
+				document.getElementById("medallaPath").src = "./images/Preseas/bronce.png";
+				return "BRONCE"
+			}
+			else if (num == 1) { document.getElementById("medallaPath").src = "./images/Preseas/plata.png"; return "PLATA" }
+			else if (num == 2) { document.getElementById("medallaPath").src = "./images/Preseas/oro.png"; return "ORO" }
+			else if (num == 3) { document.getElementById("medallaPath").src = "./images/Preseas/verde.png"; return "ESMERALDA" }
+
+		};
+
+		function getMsjPercentil(num) {
+			if (num <= 25) return "Debes de tomar acciones prontamente, estas dentro 25% de la empresas de tu sector con mayor huella de carbono"
+			else if (num <= 50) return "Reduce tu huella de carbono, estas por encima del 50% de la empresas de tu sector con mayor huella de carbono"
+			else if (num <= 75) return "Todavia hay camino para mejorar, estas por debajo del 50% de la empresas de tu sector con mayor huella de carbono"
+			else if (num <= 100) return "Sigue asi, eres de las empresas de tu sector con menor huella de carbono"
+		}
+
+
+		function getConoceteMsj(num) {
+			if (num == 0) return "MSJ 0"
+			else if (num == 1) return "MSJ 1"
+			else if (num == 2) return "MSJ 2"
+			else if (num == 3) return "MSJ 3"
+
+		}
+
+		function getMejoraMsj(num) {
+			if (num == 0) return "MSJ 0"
+			else if (num == 1) return "MSJ 1"
+			else if (num == 2) return "MSJ 2"
+			else if (num == 3) return "MSJ 3"
+
+		}
+		function getExploraMsj(num) {
+			if (num == 0) return "MSJ 0"
+			else if (num == 1) return "MSJ 1"
+			else if (num == 2) return "MSJ 2"
+			else if (num == 3) return "MSJ 3"
+
+		}
+
 	</script>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-blue sticky-top header-menu">
 		<div class="container">
 			<a class="navbar-brand">
-				<img src="index.png"width="200" 
-				height="112">
+				<img src="index.png" width="200" height="112">
 				<span class='d-md-none'>Tu Resultado</span>
 			</a>
 			<div class="collapse navbar-collapse desktop-menu">
@@ -499,7 +555,7 @@
 						<div class="item2">
 							<div class='analitic-info'>
 								<div class="analitic-info-content">
-									<img class src="images/goldmedal.png" alt>
+									<img class id="medallaPath" src="./images/goldmedal.png" alt>
 									<div class="feedback">
 
 									</div>
@@ -507,7 +563,8 @@
 
 								<div class="info-text">
 									<p class="tittle"><b>Certificacion BBVA</b></p>
-									<p class="description">tu empresa cuenta con la certificacion ORO asignada por BBVA
+									<p class="description">tu empresa cuenta con la certificacion <b><span
+												id="medalla"><b>Presea</b></span></b> asignada por BBVA
 									</p>
 									<div class="links-list">
 										<a class href="" target="_blank">Ver como mejorar mi certificacion</a>
@@ -521,11 +578,11 @@
 									<img class src="images/plant.png" alt>
 									<div class="feedback">
 										<div class="valorations">
-											<span class="icon-caret-up">
-												6
+											<span class="icon-caret-up" id="factoresPositivos1">
+												N
 											</span>
-											<span class="icon-caret-down">
-												0
+											<span class="icon-caret-down" id="factoresNegativos">
+												N
 											</span>
 										</div>
 									</div>
@@ -533,8 +590,8 @@
 
 								<div class="info-text">
 									<p class="tittle"><b> Resultado General</b></p>
-									<p class="description">Tienes 10 valores por encima del promedio nacional y del
-										requerido por ley y 0 por mejorar</p>
+									<p class="description">Tienes <span id="factoresPositivos2">FactoresPositivos</span>
+										factores que ayudan a mitigar tu huella de carbono en tus actividades</p>
 									<div class="links-list">
 										<a class href="" target="_blank">Ver mi reporte a detalle</a>
 									</div>
@@ -546,7 +603,7 @@
 								<div class="column-percentage">
 									<div id="circle">
 										<div>
-											<span class="number">75%</span>Completado
+											<span class="number" id="percentil">75%</span> %
 										</div>
 									</div>
 								</div>
@@ -554,7 +611,7 @@
 									<p class="tittle"><b>Plan de mejora</b></p>
 									<p class="primary-plan"><i>Periodo 2021 - 2022</i></p>
 									<br>
-									<p class="description">vas por buen camino, sigue asi </p>
+									<p class="description"><span id="mensajePercentil">Mensaje de Avance</span></p>
 								</div>
 							</div>
 						</div>
@@ -569,7 +626,8 @@
 
 								<div class="info-text">
 									<p class="tittle"><b>Mis Emisiones</b></p>
-									<p class="description">tu empresa genera un estimado de 100 mil huellas de carbono
+									<p class="description"><b> HUELLA de CARBONO:</b> tu empresa genera un estimado de
+										<b><span id="kilosHC">1.5</span> toneladas </b> de CO2
 									</p>
 									<div class="links-list">
 										<a class href="" target="_blank">Ver mi reporte a detalle</a>
@@ -595,7 +653,8 @@
 						</div>
 						<div class="col-12 col-md-8 information">
 							<div class="title">¿Quieres mejorar tu presea?</div>
-							<div class="description ">¡Queremos ayudarte! Responde estas preguntas y tu presea de estimación de Huella de Carbono será mejor. Tendrás un resultado más preciso.</div>
+							<div class="description ">¡Queremos ayudarte! Responde estas preguntas y tu presea de
+								estimación de Huella de Carbono será mejor. Tendrás un resultado más preciso.</div>
 							<a class="btn btn-bbva" href='https://bbva-talent-culture.appspot.com/recomendaciones/'
 								target='_self'>Comienza aquí</a>
 						</div>
@@ -606,7 +665,8 @@
 	</div>
 	<div class="cards-container">
 		<div class="container">
-			<h2 class="text-center tools-title">Nuestro planeta y el medio ambiente dependen de todas las acciones hacemos día con día.</h2>
+			<h2 class="text-center tools-title">Nuestro planeta y el medio ambiente dependen de todas las acciones
+				hacemos día con día.</h2>
 		</div>
 		<div class="container">
 			<div class="row">
@@ -618,8 +678,10 @@
 						</div>
 						<div class="card-body information">
 							<h3 class="title">Conócete mejor</h3>
-							<p class="description">Para decidir el enfoque de tu acciones para salvar el planeta, primero conoce
-								de dónde partes y cómo aprovechar los diferentes elementos que tienes a tu alcance en base a tu sector.
+							<p class="description"><span id="conoceteMsj"> decidir el enfoque de tu acciones para salvar
+									el planeta, primero conoce
+									de dónde partes y cómo aprovechar los diferentes elementos que tienes a tu alcance
+									en base a tu sector.</span>
 							</p>
 							<div class="list-part">
 								<ul>
@@ -640,9 +702,10 @@
 						</div>
 						<div class="card-body information">
 							<h3 class="title">Mejora para crecer</h3>
-							<p class="description">Trabaja sobre tus áreas de mejora y afianza tus fortalezas. Utiliza
-								todos los elementos que BBVA pone a tu alcance para mejorar tus capacidades y
-								habilidades. </p>
+							<p class="description"><span id="mejoraMsj">Trabaja sobre tus áreas de mejora y afianza tus
+									fortalezas. Utiliza
+									todos los elementos que BBVA pone a tu alcance para mejorar tus capacidades y
+									habilidades.</span> </p>
 							<div class="list-part">
 								<ul>
 									<li>
@@ -663,8 +726,10 @@
 						</div>
 						<div class="card-body information">
 							<h3 class="title">Explora nuevos caminos </h3>
-							<p class="description">Descubre otros roles y oportunidades dentro del Grupo. Identifica
-								nuevos caminos que sean de tu interes y las áreas de mejora que necesitas desarrollar.
+							<p class="description"><span id="exploraMsj">Descubre otros roles y oportunidades dentro del
+									Grupo. Identifica
+									nuevos caminos que sean de tu interes y las áreas de mejora que necesitas
+									desarrollar.</span>
 							</p>
 							<div class="list-part">
 								<ul>
@@ -692,7 +757,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="resources/jquery-circle-progress-1.2.2/dist/circle-progress.js"></script>
 	<script>
-		$('#circle').circleProgress({ value: 0.75, size: 80, startAngle: 80, fill: "green" });
+
 	</script>
 	<!--animacion de circulo-->
 
