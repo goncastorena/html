@@ -45,21 +45,21 @@
 		function traerResultados() {
 			var datos = "";
 			let name = "";
-			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=Hack-Resultados&_id='+id).then(res => res.json()).then(data => {
-				var circle = data.Item.percentil / 100;
+			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/api?TableName=Hack-Resultados&uuid='+id).then(res => res.json()).then(data => {
+				var circle = data.Item.Percentil / 100;
 				document.getElementById("name").innerHTML = data.Item.username;
 				document.getElementById("name1").innerHTML = data.Item.username;
 				document.getElementById("medalla").innerHTML = getMedalla(data.Item.medalla);
 				document.getElementById("factoresPositivos1").innerHTML = data.Item.factores;
 				document.getElementById("factoresPositivos2").innerHTML = data.Item.factores;
 				document.getElementById("factoresNegativos").innerHTML = (6 - data.Item.factores);
-				document.getElementById("percentil").innerHTML = data.Item.percentil;
-				document.getElementById("mensajePercentil").innerHTML = getMsjPercentil(data.Item.percentil);
+				document.getElementById("percentil").innerHTML = data.Item.Percentil;
+				document.getElementById("mensajePercentil").innerHTML = getMsjPercentil(data.Item.Percentil);
 				$('#circle').circleProgress({ value: circle, size: 80, startAngle: 80, fill: "green" });
 				document.getElementById("kilosHC").innerHTML = data.Item.huella_total / 1000;
-				document.getElementById("conoceteMsj").innerHTML = getConoceteMsj(data.Item.percentil);
-				document.getElementById("mejoraMsj").innerHTML = getMejoraMsj(data.Item.percentil);
-				document.getElementById("exploraMsj").innerHTML = getExploraMsj(data.Item.percentil);
+				document.getElementById("conoceteMsj").innerHTML = getConoceteMsj(data.Item.Percentil);
+				document.getElementById("mejoraMsj").innerHTML = getMejoraMsj(data.Item.Percentil);
+				document.getElementById("exploraMsj").innerHTML = getExploraMsj(data.Item.Percentil);
 
 
 			});
