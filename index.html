@@ -2,7 +2,7 @@
 <html lang="es-ES">
 
 <head>
-	<title>Tu desarrollo</title>
+	<title>Calculadora Verde</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -34,12 +34,15 @@
 </head>
 
 <body class="home page-template-default page page-id-1168 logged-in" data-spy="scroll" data-target=".nav-middle"
-	data-referer="https://bbva-talent-culture.appspot.com/conocete/" data-actual-page='Tu desarrollo'>
+	data-referer="https://bbva-talent-culture.appspot.com/conocete/" data-actual-page='Tu desarrollo' onload="traer()">
 	<script>
 		function traer() {
 			var datos = "";
 			let name = "";
-			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=aaa&bbb=csawkghsjraf').then(res => res.json()).then(data => document.getElementById("name").innerHTML = data.Item.bbb);
+			fetch('https://0i0g45mq2m.execute-api.us-east-1.amazonaws.com/test/?TableName=aaa&bbb=csawkghsjraf').then(res => res.json()).then(data => {
+				document.getElementById("name").innerHTML = data.Item.bbb;
+				document.getElementById("name1").innerHTML = data.Item.bbb
+			});
 
 
 
@@ -49,7 +52,7 @@
 	</script>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-blue sticky-top header-menu">
 		<div class="container">
-			<a class="navbar-brand" onclick="traer()">
+			<a class="navbar-brand">
 				<img src="logo.png">
 				<span class='d-md-none'>Tu Resultado</span>
 			</a>
@@ -62,8 +65,8 @@
 						<li class='separator nav-item'>
 							<a href="#" class='nav-link p-0 ' target=''>separator </a>
 						</li>
-						<li class='conocete nav-item'>
-							<a href="" class='nav-link p-0 ' target=''>Conócete
+						<li class='masInfo nav-item'>
+							<a href="" class='nav-link p-0 ' target=''>Huella de Carbono
 								<i class='icon-arrow'></i></a>
 							<nav class='nav-main dropdown-main'>
 								<div class='dropdown-main-content'>
@@ -71,41 +74,16 @@
 										<ul class='nav main-list'>
 											<li class='mas-sobre-valoracion-de-personas nav-item'>
 												<a href="" class=' ' target=''>
-													<h2 class='title'>Más sobre Valoración de personas</h2>
-													<p class="description">Te ofrece una visión 360 grados de tu perfil,
-														skills intrínsecas y técnicas, potencial, fortalezas y áreas de
-														mejora en relación a tu rol actual.</p>
+													<h2 class='title'>Mas info sobre Huella de Carbono</h2>
+													<p class="description">Obtén mas información sobre la huella de
+														carbon o y como se calcula.</p>
 												</a>
 											</li>
 											<li class='mas-sobre-desempeno-individual nav-item'>
 												<a href="" class=' ' target=''>
-													<h2 class='title'>Más sobre Desempeño individual</h2>
-													<p class="description">Te indica en qué medida has alcanzado los
-														objetivos del año y cómo vives los valores del Grupo.</p>
-												</a>
-											</li>
-											<li class='mas-sobre-roles nav-item'>
-												<a href="" class=' ' target=''>
-													<h2 class='title'>Más sobre Roles</h2>
-													<p class="description">El rol define las principales funciones y
-														responsabilidades del puesto y cuáles son las skills intrínsecas
-														y técnicas requeridas para su desempeño óptimo.</p>
-												</a>
-											</li>
-											<li class='mas-sobre-mapa-de-talento nav-item'>
-												<a href="" class=' ' target=''>
-													<h2 class='title'>Más sobre Mapa de talento</h2>
-													<p class="description">Te permite conocer tu ubicación en el Mapa de
-														talento, comparándote con otros compañeros y poniendo a tu
-														alcance una oferta de desarrollo adaptada.</p>
-												</a>
-											</li>
-											<li class='project-review nav-item'>
-												<a href="" class=' ' target='_blank'>
-													<h2 class='title'>Project review</h2>
-													<p class="description">Si trabajas en proyectos, trimestralmente
-														tendrás feedback completo de lo conseguido como equipo y lo
-														aportado a cada proyecto (solo Solutions Development).</p>
+													<h2 class='title'>Oportunidades con BBVA</h2>
+													<p class="description">Conoce más acerca de las opportunidades que
+														BBVA tiene disponibles</p>
 												</a>
 											</li>
 										</ul>
@@ -123,63 +101,16 @@
 										<ul class='nav main-list'>
 											<li class='plan-de-crecimiento nav-item'>
 												<a href="" class=' ' target='_blank'>
-													<h2 class='title'>Plan de crecimiento</h2>
-													<p class="description">Te permite crear un plan de crecimiento que
-														sea útil para tu desarrollo profesional.</p>
+													<h2 class='title'>Mejora tu huella de Carbono</h2>
+													<p class="description">Conoce algunos tips para reducir la huella de
+														Carbono de tu empresa.</p>
 												</a>
 											</li>
 											<li class='campus-bbva nav-item'>
 												<a href="" class=' ' target='_blank'>
-													<h2 class='title'>Campus BBVA</h2>
-													<p class="description">Te ofrece un universo de recursos para tu
-														desarrollo y formación profesional con todo lo que necesitas
-														para crecer y aprender continuamente.</p>
-												</a>
-											</li>
-											<li class='open-mentoring nav-item'>
-												<a href="" class=' ' target='_blank'>
-													<h2 class='title'>Open mentoring</h2>
-													<p class="description">Crece y mejora profesionalmente siendo mentor
-														y/o mentee, en un entorno personal de confianza y cercanía.</p>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</nav>
-
-						</li>
-						<li class='explora nav-item'>
-							<a href="" class='nav-link p-0 ' target=''>Explora
-								<i class='icon-arrow'></i></a>
-							<nav class='nav-main dropdown-main'>
-								<div class='dropdown-main-content'>
-									<div class='container'>
-										<ul class='nav main-list'>
-											<li class='buscador-de-roles nav-item'>
-												<a href="https://bbva-intranet.appspot.com?atom=BROL&amp;external=true"
-													class=' ' target='_blank'>
-													<h2 class='title'>Buscador de roles</h2>
-													<p class="description">Te permite conocer las características y
-														requerimientos de cualquier rol de la organización que te
-														interese.</p>
-												</a>
-											</li>
-											<li class='mobility nav-item'>
-												<a href="https://bbva-intranet.appspot.com?atom=ENAP&amp;external=true"
-													class=' ' target='_blank'>
-													<h2 class='title'>Mobility</h2>
-													<p class="description">Podrás aplicar a las ofertas de empleo tanto
-														locales como internacionales y actualizar tu Currículum.</p>
-												</a>
-											</li>
-											<li class='opportunity nav-item'>
-												<a href="https://bbva-intranet.appspot.com?atom=OPGL&amp;external=true"
-													class=' ' target='_blank'>
-													<h2 class='title'>Opportunity</h2>
-													<p class="description">Explora y analiza tus opciones profesionales
-														en el Grupo. Crea tus metas, refleja tus intereses y recibirás
-														notificaciones de ofertas de empleo.</p>
+													<h2 class='title'>Huella Carbono Individual</h2>
+													<p class="description">Conoce información acerca de como puedes
+														reducir de forma individual tu Huella de Carbono.</p>
 												</a>
 											</li>
 										</ul>
@@ -191,7 +122,8 @@
 					</ul>
 				</div>
 				<div class='right-container ml-auto d-none d-md-flex'>
-					<div class="navbar-text text-white text-capitalize my-profile">Hola, alejandro</div>
+					<div class="navbar-text text-white text-capitalize my-profile"><span id="name">Nombre_Empresa</span>
+					</div>
 					<div class="language">
 						<div class="dropdown">
 
@@ -462,32 +394,14 @@
 		<!--	RESPONSIVE	-->
 
 	</nav>
-	<div class="video-home-resp d-md-none">
-		<div class="container-fluid">
-			<div class="row overflow-hidden">
-				<div class="col-md-6 corner d-flex flex-column justify-content-center align-items-center"
-					style="background-image: url(images/fondo.png);">
-
-					<p class='icon_play_text'></p>
-				</div>
-				<div class="col-md-6 mask-triangle">
-					<div class="group-text">
-						<h2 class="title-home">Un mundo de oportunidades para crecer y ayudar al planeta </h2>
-						<p class="subtitle-home">Conócete, mejora y explora nuevos caminos aprovechando todas las
-							oportunidades que tenemos para ti.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="video-home d-none d-sm-none d-md-block">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="group-text">
-						<p class="title-home">Un mundo de oportunidades para tu desarrollo profesional </p>
-						<p class="subtitle-home">Conócete, mejora y explora nuevos caminos y aprovecha todas las
-							oportunidades que te ofrecemos</p>
+						<h2 class="title-home">Un mundo de oportunidades para crecer y ayudar al planeta </h2>
+						<p class="subtitle-home">Conócete, mejora y explora nuevos caminos aprovechando todas las
+							oportunidades que tenemos para ti.</p>
 					</div>
 				</div>
 				<div class="col-md-6 corner d-flex justify-content-center align-items-center"
@@ -538,8 +452,8 @@
 	<div class="cornestonne-component" data-post-id='1168' data-uid="" data-email="" data-language="es">
 		<div class="container top">
 			<h2 class="text-center name-person">
-				Esta es tu situación actual, <span id="name">Nombre_Empresa</span>;
-			 </h2>
+				Esta es tu situación actual, <span id="name1">Nombre_Empresa</span>;
+			</h2>
 			<ul class="nav nav-tabs" role="tablist">
 				<li class="nav-item">
 
@@ -670,10 +584,28 @@
 	</div>
 	</div>
 	</div>
+	<div class="call_to_action-component">
+		<div class='container'>
+			<div class='row'>
+				<div class="col-12">
+					<div class="row ml_1024">
+						<div class="col-12 col-md-4 order-md-2 ">
+							<img class="img_call_to" src="images/ecologia.png">
+						</div>
+						<div class="col-12 col-md-8 information">
+							<div class="title">¿Quieres mejorar tu presea?</div>
+							<div class="description ">¡Queremos ayudarte! Responde estas preguntas y tu presea de estimación de Huella de Carbono será mejor. Tendrás un resultado más preciso.</div>
+							<a class="btn btn-bbva" href='https://bbva-talent-culture.appspot.com/recomendaciones/'
+								target='_self'>Comienza aquí</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="cards-container">
 		<div class="container">
-			<h2 class="text-center tools-title">Todo el ecosistema de elementos disponibles para conocerte, mejorar y
-				explorar</h2>
+			<h2 class="text-center tools-title">Nuestro planeta y el medio ambiente dependen de todas las acciones hacemos día con día.</h2>
 		</div>
 		<div class="container">
 			<div class="row">
@@ -685,8 +617,8 @@
 						</div>
 						<div class="card-body information">
 							<h3 class="title">Conócete mejor</h3>
-							<p class="description">Para decidir el enfoque de tu desarrollo profesional, primero conoce
-								de dónde partes y cómo aprovechar los diferentes elementos que tienes a tu alcance.
+							<p class="description">Para decidir el enfoque de tu acciones para salvar el planeta, primero conoce
+								de dónde partes y cómo aprovechar los diferentes elementos que tienes a tu alcance en base a tu sector.
 							</p>
 							<div class="list-part">
 								<ul>
@@ -694,23 +626,6 @@
 										<a href="https://bbva-talent-culture.appspot.com/conocete/conoce-roles/"
 											target='_self'>Más sobre roles</a>
 									</li>
-									<li>
-										<a href="https://bbva-talent-culture.appspot.com/conocete/valoracion-de-personas/"
-											target='_self'>Más sobre Valoración de personas</a>
-									</li>
-									<li>
-										<a href="https://bbva-talent-culture.appspot.com/conocete/desempeno-individual/"
-											target='_self'>Más sobre Desempeño individual</a>
-									</li>
-									<li>
-										<a href="https://bbva-talent-culture.appspot.com/conocete/mapa-de-talento/"
-											target='_self'>Más sobre Mapa de talento</a>
-									</li>
-									<li>
-										<a href="https://bbva-intranet.appspot.com?atom=PEMA&external=true"
-											target='_blank'>Project review (Solutions Development)</a>
-									</li>
-								</ul>
 							</div>
 							<a class="btn btn-bbva" href="https://bbva-talent-culture.appspot.com/conocete/"
 								target='_self'>Más sobre Conócete</a>
@@ -732,18 +647,6 @@
 									<li>
 										<a href="https://bbva-intranet.appspot.com?atom=PLCR&external=true"
 											target='_blank'>Accede a Plan de crecimiento</a>
-									</li>
-									<li>
-										<a href="https://bbva-intranet.appspot.com?atom=ECAM&external=true"
-											target='_blank'>Fórmate en Campus BBVA</a>
-									</li>
-									<li>
-										<a href="https://bbva-intranet.appspot.com?atom=MENTORIN&external=true"
-											target='_blank'>Participa en Open mentoring</a>
-									</li>
-									<li>
-										<a href="https://sites.google.com/bbva.com/certificaciones-efpa/home"
-											target='_blank'>Consulta las certificaciones </a>
 									</li>
 								</ul>
 							</div>
@@ -768,14 +671,6 @@
 										<a href="https://bbva-intranet.appspot.com?atom=BROL&external=true"
 											target='_blank'>Descubre otros roles </a>
 									</li>
-									<li>
-										<a href="https://bbva-intranet.appspot.com?atom=ENAP&external=true"
-											target='_blank'>Busca ofertas de empleo en Mobility</a>
-									</li>
-									<li>
-										<a href="https://bbva-intranet.appspot.com?atom=OPGL&external=true"
-											target='_blank'>Establece tus metas en Opportunity</a>
-									</li>
 								</ul>
 							</div>
 							<a class="btn btn-bbva" href="https://bbva-talent-culture.appspot.com/explora/"
@@ -786,69 +681,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="call_to_action-component">
-		<div class='container'>
-			<div class='row'>
-				<div class="col-12">
-					<div class="row ml_1024">
-						<div class="col-12 col-md-4 order-md-2 ">
-							<img class="img_call_to" src="images/ecologia.png">
-						</div>
-						<div class="col-12 col-md-8 information">
-							<div class="title">¿No sabes por dónde empezar?</div>
-							<div class="description ">¡Queremos ayudarte! Responde esta pregunta y te recomendaremos los
-								pasos a seguir y los elementos de apoyo con los que cuentas para tu desarrollo.</div>
-							<a class="btn btn-bbva" href='https://bbva-talent-culture.appspot.com/recomendaciones/'
-								target='_self'>Comienza aquí</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="last_news-component">
-		<h2 class="text-center">Consejos</h2>
-		<div class="container">
-			<div class="row">
 
 
-
-				<div class="col-md-6">
-					<div class="card-blog">
-						<a href="https://bbva-talent-culture.appspot.com/blog/2020/11/12/open-mentoring-aprende-y-ensena-a-los-demas/"
-							target='_self'>
-							<img class=""
-								src="https://storage.googleapis.com/bbva-talent-culture.appspot.com/1/2020/11/Open-Mentoring_2-1.png">
-							<div class="title-post">
-								<div class='content'>
-									‘Open Mentoring’: aprende y enseña a los demás
-								</div>
-								<div class='icon  internal'></div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-
-				<div class="col-md-6">
-					<div class="card-blog">
-						<a href="https://bbva-talent-culture.appspot.com/blog/2020/10/30/opportunity/" target='_self'>
-							<img class=""
-								src="https://storage.googleapis.com/bbva-talent-culture.appspot.com/1/2020/10/IMAGEN-INTRANET-1.jpg">
-							<div class="title-post">
-								<div class='content'>
-									Opportunity </div>
-								<div class='icon  internal'></div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class='see-all-tips'>
-			<a href="https://bbva-talent-culture.appspot.com/tips/" class='' target='_self'>Ver todos los consejos</a>
-		</div>
-	</div>
 
 
 
@@ -889,16 +723,16 @@
 
 
 				<div class='col col-12 col-md-3 tu-desarrollo'>
-					<a href="" class='title' target=''>Tu desarrollo</a>
+					<a href="" class='title' target=''>Tu Resultado</a>
 				</div>
 				<div class='col col-12 col-md-3 separator'>
 					<a href="#" class='title' target=''>separator</a>
 				</div>
 				<div class='col col-12 col-md-3 conocete'>
-					<a href="" class='title' target=''>Conócete</a>
+					<a href="" class='title' target=''>Huella de Carbono</a>
 					<ul>
 						<li>
-							<a href="" class='children foot-space' target=''>Más sobre Valoración de personas</a>
+							<a href="" class='children foot-space' target=''>Más sobre Huella de Carbono</a>
 						</li>
 
 					</ul>
@@ -907,41 +741,12 @@
 					<a href="" class='title' target=''>Mejora</a>
 					<ul>
 						<li>
-							<a href="" class='children foot-space' target='_blank'>Plan de crecimiento</a>
-						</li>
-
-					</ul>
-				</div>
-				<div class='col col-12 col-md-3 explora'>
-					<a href="images/planeta.png" class='title' target=''>Explora</a>
-					<ul>
-						<li>
-							<a href="" class='children foot-space' target='_blank'>Buscador de roles</a>
+							<a href="" class='children foot-space' target='_blank'>Reduce tu Huella de Carbono</a>
 						</li>
 
 					</ul>
 				</div>
 
-			</div>
-		</div>
-
-
-		<div class="modal modal-language" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
-			aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-lg">
-				<div class="modal-content">
-					<div class='modal-header'>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close" id="btnClose">
-							<img src='' alt=''>
-						</button>
-					</div>
-					<div class="modal-body">
-						<h4>Configura tu idioma</h4>
-						<p>Tu desarrollo muestra el idioma que tienes configurado en la Intranet. Si estás teniendo
-							problemas para visualizarlo, modifícalo desde la configuración de la intranet</p>
-						<a href="" target="_blank" class="btn btn-bbva">Accede a la configuración</a>
-					</div>
-				</div>
 			</div>
 		</div>
 
