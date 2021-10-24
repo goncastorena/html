@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @font-face {
-  font-family: fontpersonalisada;
+  font-family: 'BentonSans';
   src: url(resources/bentonsans-medium_03kWs/BentonSans\ Medium/);
 }
 html {
@@ -17,8 +17,7 @@ html {
   padding: 16px 32px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .btn-bbva:hover {
@@ -34,7 +33,7 @@ html {
   padding: 16px 32px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   text-aling: center;
   margin: 0 auto;
@@ -104,7 +103,7 @@ html {
 }
 
 .tools-subtitle, .roles-subtitle {
-  font-family: fontpersonalisada;
+
 }
 
 .pt_72 {
@@ -222,7 +221,7 @@ nav.navbar {
     height: 100%;
   }
   nav.navbar .scroll_mm ul .card_menu_movil h2 {
-    font-family: fontpersonalisada;
+
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0;
@@ -276,7 +275,7 @@ nav.navbar {
     align-self: center;
   }
   nav.navbar .position_fixed_movil .language a {
-    font-family: BentonBook;
+
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0;
@@ -287,7 +286,7 @@ nav.navbar {
     margin-right: 0;
   }
   nav.navbar .position_fixed_movil .language a.active {
-    font-family: fontpersonalisada;
+
   }
   nav.navbar .menu_movil_botton {
     height: calc(100vh - 166px);
@@ -329,7 +328,7 @@ nav.navbar.header-menu .navbar-brand {
 }
 
 nav.navbar.header-menu .navbar-brand span {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -379,7 +378,7 @@ nav.navbar.header-menu .navbar-nav ul .nav-item.separator a {
 
 nav.navbar.header-menu .navbar-nav ul .nav-item .nav-link {
   color: #dbdbdb;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -491,14 +490,14 @@ nav.navbar.header-menu .navbar-nav ul .nav-main .main-list .nav-item a .title {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
 }
 
 nav.navbar.header-menu .navbar-nav ul .nav-main .main-list .nav-item a p {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: BentonBook;
+
   text-align: center;
 }
 
@@ -529,8 +528,8 @@ nav.navbar.header-menu .right-container {
 
 nav.navbar.header-menu .right-container .my-profile {
   color: #fff;
-  font-family: fontpersonalisada;
-  font-size: 15px;
+
+  font-size: 25px;
   line-height: 24px;
   letter-spacing: 0;
   margin-right: 24px;
@@ -782,7 +781,7 @@ nav.navbar.header-menu .navbar-toggler.collapsed .navbar-toggler-icon {
 }
 
 .breadcrumb .breadcrumb-item a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -790,7 +789,7 @@ nav.navbar.header-menu .navbar-toggler.collapsed .navbar-toggler-icon {
 }
 
 .breadcrumb .breadcrumb-item.active {
-  font-family: BentonBook;
+
   color: #1464a5;
   font-size: 15px;
   line-height: 24px;
@@ -883,7 +882,7 @@ nav.navbar.header-menu .navbar-toggler.collapsed .navbar-toggler-icon {
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
-  font-family: BentonBook;
+
   color: #121212;
   margin-bottom: 12px;
 }
@@ -892,14 +891,14 @@ nav.navbar.header-menu .navbar-toggler.collapsed .navbar-toggler-icon {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: BentonBook;
+
   color: #121212;
   max-width: 998px;
 }
 
 .notifications-slider .container .notification-item .btn-notification {
   color: #1973b8;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1010,14 +1009,14 @@ span.spantop {
 
             .title-home {
                 font-size: $size-title-home;
-                font-family: BentonBold;
+                ;
                 line-height: 58px;
                 margin-bottom: 24px;
             }
 
             .subtitle-home {
                 font-size: $size-subtitle;
-                font-family: BentonBook;
+
                 line-height: 32px;
                 letter-spacing: 0;
             }
@@ -1057,7 +1056,7 @@ span.spantop {
             }
 
             button {
-                font-family: fontpersonalisada;
+
                 font-size: 13px;
                 line-height: 20px;
                 letter-spacing: 0;
@@ -1116,7 +1115,7 @@ span.spantop {
 }
 */
 .video-home {
-  background-color: #5BBEFF;
+  background-color: #65acdb;
   position: relative;
 }
 
@@ -1132,7 +1131,7 @@ span.spantop {
 
 .video-home .group-text p.title-home {
   font-size: 46px;
-  font-family: BentonBold;
+  ;
   line-height: 54px;
   margin-bottom: 24px;
 }
@@ -1145,7 +1144,7 @@ span.spantop {
 
 .video-home .group-text p.subtitle-home {
   font-size: 22px;
-  font-family: BentonBook;
+
   line-height: 32px;
   letter-spacing: 0;
 }
@@ -1219,7 +1218,7 @@ span.spantop {
 }
 
 .video-home .corner .icon_play_text {
-  font-family: fontpersonalisada;
+
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0;
@@ -1251,7 +1250,7 @@ span.spantop {
   -webkit-box-align: center;
           align-items: center;
   outline: none;
-  font-family: fontpersonalisada;
+
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0;
@@ -1269,7 +1268,7 @@ span.spantop {
 
 .video-home-resp .overflow-hidden .corner .icon_play_text {
   margin-top: 8px;
-  font-family: fontpersonalisada;
+
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0;
@@ -1297,7 +1296,7 @@ span.spantop {
 }
 
 .video-home-resp .overflow-hidden .mask-triangle .group-text .title-home {
-  font-family: BentonBold;
+  ;
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0;
@@ -1305,7 +1304,7 @@ span.spantop {
 }
 
 .video-home-resp .overflow-hidden .mask-triangle .group-text .subtitle-home {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1454,7 +1453,7 @@ span.spantop {
 .cornestonne-component {
   background-color: #D4EDFC;
   z-index: 2;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .cornestonne-component a:hover {
@@ -1474,7 +1473,7 @@ span.spantop {
 }
 
 .cornestonne-component .nav.nav-tabs .nav-link {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1555,7 +1554,7 @@ span.spantop {
 
 .cornestonne-component .no-data p {
   text-align: center;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1565,7 +1564,7 @@ span.spantop {
 }
 
 .cornestonne-component .no-data span {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1638,7 +1637,7 @@ span.spantop {
 .cornestonne-component .container .name-person {
   font-size: 40px;
   line-height: 48px;
-  font-family: BentonLight;
+
   letter-spacing: 0;
   color: #121212;
   padding-top: 48px;
@@ -1701,7 +1700,7 @@ span.spantop {
 .cornestonne-component .container .corner-grid .item2 {
   grid-column-start: 1;
   grid-column-end: 2;
-  
+
 
 }
 
@@ -1762,7 +1761,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .user-personal .user-title {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1784,7 +1783,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .user-personal span {
-  font-family: fontpersonalisada;
+
   font-size: 10px;
   line-height: 15px;
   letter-spacing: 0;
@@ -1811,7 +1810,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .user-links a {
-  font-family: fontpersonalisada;
+
   color: #5bbeff;
   font-size: 15px;
   line-height: 24px;
@@ -1878,7 +1877,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal p.user-title {
   text-transform: capitalize;
-  font-family: fontpersonalisada;
+
 }
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal p.user-title.no-capitalize {
@@ -1886,7 +1885,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal p.role-gestor {
-  font-family: BentonBook;
+
 }
 
 @media (max-width: 1145px) {
@@ -1901,7 +1900,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1940,7 +1939,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal a .text {
   display: inline;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1949,7 +1948,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal-responsive {
   margin-bottom: 0;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   color: #ffffff;
@@ -1965,7 +1964,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal-responsive a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -1993,7 +1992,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-gestor .gestor-personal-responsive a .text {
   display: inline;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2051,7 +2050,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-contacto .contacto-text p.contacto-title {
   text-transform: capitalize;
-  font-family: fontpersonalisada;
+
 }
 
 .cornestonne-component .container .corner-grid .personal-info .info-contacto .contacto-text p.contacto-title.no-capitalize {
@@ -2063,7 +2062,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .info-contacto .contacto-text a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2093,7 +2092,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-contacto .contacto-text a .text {
   display: inline;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2109,7 +2108,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .personal-info .info-footer a {
-  font-family: fontpersonalisada;
+
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0;
@@ -2137,7 +2136,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .personal-info .info-footer a .text {
   display: inline;
-  font-family: fontpersonalisada;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0;
@@ -2160,7 +2159,7 @@ span.spantop {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
 }
 
 .cornestonne-component .container .corner-grid .analitic-info {
@@ -2244,7 +2243,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .analitic-info-content .feedback {
-  font-family: fontpersonalisada;
+
   line-height: 24px;
   letter-spacing: 0;
   color: #121212;
@@ -2303,7 +2302,7 @@ span.spantop {
   display: flex;
   -webkit-box-align: end;
           align-items: flex-end;
-  font-family: fontpersonalisada;
+
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2332,7 +2331,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .analitic-info-content .feedback .text {
-  font-family: BentonBook;
+
   font-size: 12px;
   text-align: center;
   line-height: 16px;
@@ -2363,7 +2362,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .analitic-info-content .feedback-info span {
-  font-family: BentonBook;
+
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0;
@@ -2379,7 +2378,7 @@ span.spantop {
   z-index: 2;
   font-size: 12px;
   line-height: 16px;
-  font-family: BentonBook;
+
   color: #666;
   left: 80px;
   bottom: -32px;
@@ -2424,7 +2423,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .info-text .title {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2434,7 +2433,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .analitic-info .info-text .description {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2454,7 +2453,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .analitic-info .info-text .links-list a {
   display: block;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2511,7 +2510,7 @@ span.spantop {
   z-index: 2;
   font-size: 12px;
   line-height: 16px;
-  font-family: BentonBook;
+
   color: #666;
   left: 25px;
   bottom: -23px;
@@ -2626,7 +2625,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .formation-info .formation-info-text .description {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2636,7 +2635,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .formation-info .formation-info-text p {
   color: #666;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2646,7 +2645,7 @@ span.spantop {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
   color: #121212;
   display: -webkit-box;
   display: flex;
@@ -2660,7 +2659,7 @@ span.spantop {
 .cornestonne-component .container .corner-grid .formation-info .links-list a {
   display: block;
   margin-bottom: 6px;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2679,7 +2678,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .formation-info .message {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2764,7 +2763,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .development-info .development-info-text p {
   color: #666;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2774,7 +2773,7 @@ span.spantop {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
   color: #121212;
   display: -webkit-box;
   display: flex;
@@ -2782,7 +2781,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .development-info .development-info-text p.description {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2797,7 +2796,7 @@ span.spantop {
 .cornestonne-component .container .corner-grid .development-info .links-list a {
   display: block;
   margin-bottom: 8px;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2815,7 +2814,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .development-info .message {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2891,7 +2890,7 @@ span.spantop {
   left: 0;
   display: inline-block;
   text-align: center;
-  font-family: BentonBook;
+
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0;
@@ -2907,7 +2906,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .skills-info .column-percentage .circle-percentage div .number {
   display: block;
-  font-family: fontpersonalisada;
+
   font-size: 36px;
   line-height: 44px;
   letter-spacing: 0;
@@ -2953,7 +2952,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .skills-info .data p.title {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2972,12 +2971,12 @@ span.spantop {
   line-height: 16px;
   letter-spacing: 0;
   color: #666666;
-  font-family: fontpersonalisada;
+
   text-transform: uppercase;
 }
 
 .cornestonne-component .container .corner-grid .skills-info .data p.description {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -2986,7 +2985,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .skills-info .data a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3013,7 +3012,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .growth-info .data p {
   color: #666;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3023,7 +3022,7 @@ span.spantop {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
   color: #121212;
   display: -webkit-box;
   display: flex;
@@ -3031,7 +3030,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .growth-info .data p.type-formation {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3044,7 +3043,7 @@ span.spantop {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
   margin-bottom: 8px;
   display: block;
 }
@@ -3073,7 +3072,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .growth-info .data small {
-  font-family: BentonBook;
+
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0;
@@ -3125,7 +3124,7 @@ span.spantop {
   letter-spacing: 0;
   margin: 0;
   text-transform: uppercase;
-  font-family: fontpersonalisada;
+
   padding: 0;
 }
 
@@ -3141,7 +3140,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .growth-info .data .no-curses p {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3218,7 +3217,7 @@ span.spantop {
 
 .cornestonne-component .container .corner-grid .growth-info .data .growth-container .growth-info-text p {
   color: #666;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3228,7 +3227,7 @@ span.spantop {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
   color: #121212;
   display: -webkit-box;
   display: flex;
@@ -3236,7 +3235,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .corner-grid .growth-info .data .growth-container .growth-info-text p.description {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3329,7 +3328,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .last-procces-mobility .list-links .title {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3338,7 +3337,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .last-procces-mobility .list-links .nav-pills .nav-link {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3378,7 +3377,7 @@ span.spantop {
 
 .cornestonne-component .container .last-procces-mobility .text-mobility {
   font-weight: normal;
-  font-family: BentonBook;
+
   margin: auto;
   margin-bottom: 0.5em;
   max-width: 366px;
@@ -3453,7 +3452,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .last-procces-mobility .data-right .tab-pane .data .text-city {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3461,7 +3460,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .last-procces-mobility .data-right .tab-pane .data a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3475,7 +3474,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .last-procces-mobility .data-right .tab-pane .alert {
-  font-family: BentonBook;
+
   line-height: 24px;
   font-size: 13px;
   letter-spacing: 0;
@@ -3524,7 +3523,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .last-procces-mobility .data-right .text-see-offerts-mobile {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3577,7 +3576,7 @@ span.spantop {
   padding-left: 4px;
   text-align: center;
   z-index: 1;
-  font-family: fontpersonalisada;
+
   font-size: 16px;
   line-height: 22.4px;
   letter-spacing: 0;
@@ -3604,7 +3603,7 @@ span.spantop {
   width: 32px;
   height: 32px;
   line-height: 30px;
-  font-family: fontpersonalisada;
+
   font-size: 16px;
   line-height: 22.4px;
   letter-spacing: 0;
@@ -3671,7 +3670,7 @@ span.spantop {
   border-radius: 2px;
   padding: 10px;
   text-align: center;
-  font-family: fontpersonalisada;
+
   font-size: 10px;
   line-height: 16px;
   letter-spacing: 0;
@@ -3874,7 +3873,7 @@ span.spantop {
 }
 
 .cornestonne-component .container .my-team-tittle {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3952,7 +3951,7 @@ span.spantop {
 }
 
 .cornestonne-component .update-container {
-  font-family: BentonBook;
+
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0;
@@ -4038,7 +4037,7 @@ span.spantop {
 .cornestonne-component .calendar-block .calendar-details {
   width: 100%;
   padding: 0px;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4147,7 +4146,7 @@ span.spantop {
 
 .cornestonne-component .calendar-block .calendar-details .events-container .event .event-description {
   color: #666666;
-  font-family: BentonBook;
+
 }
 
 .cornestonne-component .calendar-block .calendar-details .events-container .event .event-description.truncate {
@@ -4283,7 +4282,7 @@ span.spantop {
 }
 
 .mt_pad p {
-  font-family: BentonBook;
+
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -4328,7 +4327,7 @@ span.spantop {
 }
 
 .cards-container .container h2 {
-  font-family: BentonLight;
+
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0;
@@ -4406,7 +4405,7 @@ span.spantop {
   line-height: 32px;
   letter-spacing: -0.5px;
   color: #121212;
-  font-family: fontpersonalisada;
+
   margin-bottom: 16px;
 }
 
@@ -4422,7 +4421,7 @@ span.spantop {
   color: #666;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: BentonBook;
+
   margin-bottom: 16px;
 }
 
@@ -4468,7 +4467,7 @@ span.spantop {
 .cards-container .container .col-md-4 .card .information .list-part ul li a {
   color: #1973b8;
   font-size: 15px;
-  font-family: fontpersonalisada;
+
   line-height: 24px;
   letter-spacing: 0;
 }
@@ -4515,7 +4514,7 @@ span.spantop {
   line-height: 44px;
   letter-spacing: 0;
   margin: 16px 0;
-  font-family: fontpersonalisada;
+
 }
 
 @media (max-width: 426px) {
@@ -4535,7 +4534,7 @@ span.spantop {
 .call_to_action-component .container .information .description {
   color: #ffffff;
   font-size: 22px;
-  font-family: BentonBook;
+
   line-height: 28px;
   letter-spacing: 0;
   margin-bottom: 32px;
@@ -4599,7 +4598,7 @@ span.spantop {
 }
 
 .last_news-component h2 {
-  font-family: BentonLight;
+
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0;
@@ -4651,7 +4650,7 @@ span.spantop {
           align-items: center;
   background-color: rgba(7, 33, 70, 0.6);
   padding: 24px;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4701,7 +4700,7 @@ span.spantop {
 }
 
 .last_news-component .see-all-tips a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4753,7 +4752,7 @@ span.spantop {
 }
 
 .valoration-component .container .valoration-container .information .title {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4762,7 +4761,7 @@ span.spantop {
 }
 
 .valoration-component .container .valoration-container .information p {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4777,7 +4776,7 @@ span.spantop {
 }
 
 .valoration-component .container .valoration-container .information p a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4786,7 +4785,7 @@ span.spantop {
 }
 
 .valoration-component .container .valoration-container .information .icon-form {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4872,7 +4871,7 @@ span.spantop {
 }
 
 .valoration-component .container .valoration-container small {
-  font-family: BentonBook;
+
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0;
@@ -4903,7 +4902,7 @@ span.spantop {
 }
 
 .no-breadcrumbs-component .btn-blue {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4981,13 +4980,13 @@ span.spantop {
 }
 
 .main-side-title, .main-side-title, .main-title, .main-title {
-  font-family: fontpersonalisada;
+
   font-size: 36px;
 }
 
 @media (max-width: 1024px) {
   .main-side-title, .main-side-title, .main-title, .main-title {
-    font-family: fontpersonalisada;
+
     font-size: 36px;
   }
 }
@@ -5044,7 +5043,7 @@ span.spantop {
 }
 
 .main-side-short-description, .main-side-long-description, .main-short-description, .main-long-description {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -5105,7 +5104,7 @@ span.spantop {
 }
 
 .main-side .see-more-description span, .main .see-more-description span {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   color: #237aba;
@@ -5137,7 +5136,7 @@ span.spantop {
   background: #fff;
   border-bottom: solid 1px #e9e9e9;
   padding: 0;
-  font-family: BentonBook;
+
   font-size: 20px;
 }
 
@@ -5185,7 +5184,7 @@ span.spantop {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  font-family: BentonBook;
+
   color: #666666;
 }
 
@@ -5273,7 +5272,7 @@ span.spantop {
 
 .nav-middle-content ul li li {
   padding-bottom: 16px;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -5305,7 +5304,7 @@ span.spantop {
 
 .nav-middle-content .main-side-title {
   margin-bottom: 48px;
-  font-family: fontpersonalisada;
+
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0;
@@ -5326,7 +5325,7 @@ span.spantop {
 }
 
 .nav-middle-content .main-side-subtitle {
-  font-family: BentonBook;
+
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
@@ -5347,7 +5346,7 @@ span.spantop {
 }
 
 .nav-middle-content .description p {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -5432,7 +5431,7 @@ span.spantop {
 
 .tools-section .card-body .tools-subtitle {
   font-size: 26px;
-  font-family: fontpersonalisada;
+
   line-height: 32px;
   letter-spacing: -0.2px;
   color: #121212;
@@ -5451,7 +5450,7 @@ span.spantop {
 }
 
 .tools-section .card-body .descripcion_card p {
-  font-family: BentonBook;
+
   font-size: 15px;
   color: #666666;
 }
@@ -5461,13 +5460,13 @@ span.spantop {
 }
 
 .tools-section .card-body .descripcion_card ul li{
-  font-family: BentonBook;
+
   font-size: 15px;
   color: #666666;
 }
 
 .tools-section .card-body .descripcion_card a {
-  font-family: BentonBook;
+
   font-size: 15px;
   color: #237aba;
   text-decoration: underline;
@@ -5568,7 +5567,6 @@ section.tool-section-white h2 {
 }
 
 section.tool-section-white .card-text {
-  font-family: "BentonBook";
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -5653,7 +5651,7 @@ section.tool-section-white .card-text ul li a {
   font-size: 13px;
   font-style: normal;
   font-stretch: normal;
-  font-family: fontpersonalisada;
+
   line-height: 1.23;
   letter-spacing: normal;
   color: #121212;
@@ -5707,7 +5705,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .faqs .list-faqs-desc h3 {
-  font-family: BentonBook;
+
   font-size: 22px;
   font-weight: normal;
   font-style: normal;
@@ -5725,7 +5723,7 @@ section.tool-section-white .card-text ul li a {
   line-height: 1.6;
   letter-spacing: normal;
   color: #666666;
-  font-family: BentonBook;
+
 }
 
 .faqs .list-faqs-desc p a {
@@ -5755,7 +5753,7 @@ section.tool-section-white .card-text ul li a {
 .faqs .list-faqs .nav-link {
   background: transparent;
   color: #1973b8;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -5825,7 +5823,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .faqs-modal .modal.carousel > div h2, .faqs-modal .modal.carousel.slide > div h2, .faqs-modal .carousel-item > div h2, .faqs-modal .carousel-inner > div h2 {
-  font-family: BentonBook;
+
   font-size: 22px;
   font-weight: normal;
   font-style: normal;
@@ -5843,7 +5841,7 @@ section.tool-section-white .card-text ul li a {
   line-height: 1.6;
   letter-spacing: normal;
   color: #666666;
-  font-family: BentonBook;
+
 }
 
 .faqs-modal .modal.carousel > div p a, .faqs-modal .modal.carousel.slide > div p a, .faqs-modal .carousel-item > div p a, .faqs-modal .carousel-inner > div p a {
@@ -5921,7 +5919,7 @@ section.tool-section-white .card-text ul li a {
 .recomendacion-test .tools-title {
   width: 710px;
   margin: auto;
-  font-family: BentonLight;
+
   font-size: 40px;
   line-height: 48px;
   color: #121212;
@@ -5980,7 +5978,7 @@ section.tool-section-white .card-text ul li a {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-family: fontpersonalisada;
+
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0;
@@ -6095,7 +6093,7 @@ section.tool-section-white .card-text ul li a {
 
 .recomendacion-test .btn-blue {
   color: #1973b8;
-  font-family: fontpersonalisada;
+
 }
 
 .main .mb_136 {
@@ -6120,7 +6118,7 @@ section.tool-section-white .card-text ul li a {
 
 .main-side-description-recomendacion {
   margin-bottom: 80px;
-  font-family: BentonBook;
+
 }
 
 @media (max-width: 426px) {
@@ -6168,7 +6166,6 @@ section.tool-section-white .card-text ul li a {
   font-size: 40px;
   letter-spacing: 0;
   color: #121212;
-  font-family: "BentonLight";
 }
 
 @media (max-width: 1024px) {
@@ -6178,7 +6175,6 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-accesos .item-recomendation .card-text {
-  font-family: "BentonBook";
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -6219,7 +6215,6 @@ section.tool-section-white .card-text ul li a {
 .recomendacion-accesos .item-recomendation .card .card-body .list-part .title-accesos {
   font-size: 13px;
   text-transform: uppercase;
-  font-family: "fontpersonalisada";
   line-height: 20px;
   letter-spacing: 0;
   color: #121212;
@@ -6277,7 +6272,7 @@ section.tool-section-white .card-text ul li a {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: "fontpersonalisada";
+
 }
 
 .recomendacion-accesos .item-recomendation .card .card-body .list-part ul li span {
@@ -6285,7 +6280,7 @@ section.tool-section-white .card-text ul li a {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: "fontpersonalisada";
+
 }
 
 .recomendacion-accesos-video {
@@ -6318,7 +6313,7 @@ section.tool-section-white .card-text ul li a {
   line-height: 32px;
   letter-spacing: -0.2px;
   color: #121212;
-  font-family: fontpersonalisada;
+
   margin-bottom: 16px;
 }
 
@@ -6333,7 +6328,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-accesos-video .card .card-body .card-text {
-  font-family: "BentonBook";
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -6349,7 +6344,7 @@ section.tool-section-white .card-text ul li a {
   right: 15px;
   bottom: 0;
   border: 0;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -6410,7 +6405,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-dudas .main-title {
-  font-family: fontpersonalisada;
+
   font-size: 36px;
   line-height: 1.36;
   letter-spacing: 0;
@@ -6426,7 +6421,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-dudas p.subtitle {
-  font-family: BentonBook;
+
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
@@ -6479,7 +6474,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-dudas .content-gestor .content-gestor-description-title {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -6493,7 +6488,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .recomendacion-dudas .content-gestor .content-gestor-description p {
-  font-family: BentonBook;
+
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0;
@@ -6511,7 +6506,7 @@ section.tool-section-white .card-text ul li a {
   color: #1973b8;
   display: -webkit-box;
   display: flex;
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -6679,7 +6674,7 @@ section.tool-section-white .card-text ul li a {
   letter-spacing: normal;
   text-align: center;
   color: #121212;
-  font-family: "fontpersonalisada";
+
 }
 
 @media (max-width: 768px) {
@@ -6786,7 +6781,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps #step5 .leave-form {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -6902,7 +6897,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps #step4 .leave-form {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -7008,7 +7003,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps #step3 .leave-form {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -7109,7 +7104,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps #step2 .leave-form {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -7181,7 +7176,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps #step1 .leave-form {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -7247,7 +7242,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps .subtitle_form {
-  font-family: BentonBook;
+
   font-size: 22px;
   font-weight: normal;
   font-style: normal;
@@ -7266,7 +7261,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps .title_form {
-  font-family: fontpersonalisada;
+
   font-size: 36px;
   font-weight: 500;
   font-style: normal;
@@ -7313,7 +7308,7 @@ section.tool-section-white .card-text ul li a {
   padding-top: 56px;
   color: #1973b8;
   font-size: 15px;
-  font-family: fontpersonalisada;
+
   font-weight: 500;
   letter-spacing: normal;
 }
@@ -7333,7 +7328,7 @@ section.tool-section-white .card-text ul li a {
           justify-content: flex-end;
   color: #1973b8;
   font-size: 15px;
-  font-family: fontpersonalisada;
+
   font-weight: 500;
   letter-spacing: normal;
   margin-right: 55px;
@@ -7355,14 +7350,14 @@ section.tool-section-white .card-text ul li a {
   justify-content: flex-end;
   color: #1973b8;
   font-size: 15px;
-  font-family: fontpersonalisada;
+
   font-weight: 500;
   letter-spacing: normal;
 }
 
 .form-steps .form-thanks .title {
   font-size: 22px;
-  font-family: "";
+
   margin: 16px 0px 8px;
   color: #121212;
   line-height: 30px;
@@ -7381,7 +7376,7 @@ section.tool-section-white .card-text ul li a {
   letter-spacing: normal;
   text-align: center;
   color: #121212;
-  font-family: "fontpersonalisada";
+
 }
 
 .form-steps .list-form {
@@ -7407,7 +7402,7 @@ section.tool-section-white .card-text ul li a {
   text-align: center;
   color: #121212;
   font-size: 15px;
-  font-family: "BentonBook";
+
   margin: 0px 16px;
 }
 
@@ -7517,7 +7512,7 @@ section.tool-section-white .card-text ul li a {
 .form-steps .text-checks {
   float: left;
   width: 100%;
-  font-family: "BentonBook";
+
   font-size: 15px;
   line-height: 24px;
   padding-left: 8px;
@@ -7536,7 +7531,7 @@ section.tool-section-white .card-text ul li a {
   padding: 16px;
   width: 507px;
   height: 160px;
-  font-family: "BentonBook";
+
 }
 
 @media (max-width: 1199px) {
@@ -7590,7 +7585,7 @@ section.tool-section-white .card-text ul li a {
   -webkit-box-pack: center;
           justify-content: center;
   font-size: 15px;
-  font-family: fontpersonalisada;
+
   margin-left: 16px;
 }
 
@@ -7628,7 +7623,7 @@ section.tool-section-white .card-text ul li a {
     -webkit-box-pack: center;
             justify-content: center;
     font-size: 15px;
-    font-family: fontpersonalisada;
+
     margin-top: 70px;
     margin-left: 0px;
   }
@@ -7644,7 +7639,7 @@ section.tool-section-white .card-text ul li a {
   -webkit-box-pack: center;
           justify-content: center;
   font-size: 15px;
-  font-family: fontpersonalisada;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -7665,7 +7660,7 @@ section.tool-section-white .card-text ul li a {
     -webkit-box-pack: center;
             justify-content: center;
     font-size: 15px;
-    font-family: fontpersonalisada;
+
     margin-top: 0px;
   }
 }
@@ -7691,7 +7686,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .form-steps .text-steps {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   margin: 8px 0px 32px;
 }
@@ -7882,7 +7877,7 @@ section.tool-section-white .card-text ul li a {
 
 .form-steps a.btn-blue.text-center.d-block {
   color: #1973b8;
-  font-family: "fontpersonalisada";
+
   line-height: 24px;
   letter-spacing: 0;
 }
@@ -8039,7 +8034,7 @@ section.tool-section-white .card-text ul li a {
 
 .roles-modules .roles-list .col-text .card-body .roles-subtitle {
   padding-bottom: 16px;
-  font-family: fontpersonalisada;
+
   font-size: 26px;
   line-height: 30px;
   letter-spacing: 0;
@@ -8054,7 +8049,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .roles-modules .roles-list .col-text .card-body p {
-  font-family: BentonBook;
+
   font-size: 15px;
   margin-bottom: 16px;
 }
@@ -8066,7 +8061,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .roles-modules .roles-list .col-text .card-body .card-text p {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8075,7 +8070,7 @@ section.tool-section-white .card-text ul li a {
 
 .roles-modules .roles-list .col-text .card-body .card-text ul {
   list-style-type: disc;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8090,7 +8085,7 @@ section.tool-section-white .card-text ul li a {
   line-height: 1.6;
   letter-spacing: normal;
   color: #666666;
-  font-family: BentonBook;
+
 }
 
 .roles-modules .roles-list .col-text .card-body .card-text ul li a {
@@ -8101,7 +8096,7 @@ section.tool-section-white .card-text ul li a {
 .roles-modules .roles-list .col-text .card-body .card-text ol {
   -webkit-padding-start: 20px;
           padding-inline-start: 20px;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8110,7 +8105,7 @@ section.tool-section-white .card-text ul li a {
 }
 
 .roles-modules .roles-list .col-text .card-body a.btn-blue {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8199,7 +8194,7 @@ section.tool-section-white .card-text ul li a {
   line-height: 1.2;
   letter-spacing: normal;
   color: #121212;
-  font-family: BentonLight;
+
 }
 
 @media (max-width: 426px) {
@@ -8229,7 +8224,7 @@ section.tool-section-white .card-text ul li a {
   line-height: 1.6;
   letter-spacing: normal;
   color: #1973b8;
-  font-family: fontpersonalisada;
+
 }
 
 .module-links .list-links.two-cols {
@@ -8265,7 +8260,7 @@ section.tool-section-white .card-text ul li a {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
 }
 
 /* Sections Criteria v.1.2*/
@@ -8280,7 +8275,7 @@ section.module-criteria img {
 }
 
 section.module-criteria h2.tools-title {
-  font-family: BentonLight;
+
   font-size: 40px;
   font-weight: 300;
   font-style: normal;
@@ -8315,7 +8310,7 @@ section.module-criteria .description p {
   font-size: 15px;
   line-height: 24px;
   color: #666666;
-  font-family: BentonBook;
+
 }
 
 @media (max-width: 426px) {
@@ -8344,7 +8339,7 @@ section.module-criteria .criteria_space h4.title-criteria {
   font-size: 13px;
   text-transform: uppercase;
   position: relative;
-  font-family: fontpersonalisada;
+
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0;
@@ -8425,7 +8420,7 @@ section.module-criteria .criteria_space .list-content {
 
 section.module-criteria .criteria_space .list-content li {
   position: relative;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8465,7 +8460,7 @@ section.module-criteria .criteria_space .list-content li:before {
 }
 
 .what-to-know p {
-  font-family: "BentonBook";
+
 }
 
 .what-to-know ul {
@@ -8513,7 +8508,7 @@ section.module-criteria .criteria_space .list-content li:before {
 }
 
 .news_content a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8567,7 +8562,7 @@ section.module-criteria .criteria_space .list-content li:before {
 @media (max-width: 1024px) {
   .tips-news .main-side-title,
   .tips-news-content .main-side-title {
-    font-family: fontpersonalisada;
+
     font-size: 36px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -8581,7 +8576,7 @@ section.module-criteria .criteria_space .list-content li:before {
   line-height: 20px;
   letter-spacing: 0;
   color: #121212;
-  font-family: fontpersonalisada;
+
   text-transform: uppercase;
   margin-bottom: 24px;
   display: block;
@@ -8639,7 +8634,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .tools-subtitle,
 .tips-news-content .tools-subtitle {
-  font-family: fontpersonalisada;
+
   margin-bottom: 16px;
 }
 
@@ -8678,7 +8673,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .main-side-title,
 .tips-news-content .main-side-title {
-  font-family: fontpersonalisada;
+
   font-size: 36px;
   font-weight: 500;
   font-stretch: normal;
@@ -8705,7 +8700,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .not-found-title,
 .tips-news-content .not-found-title {
-  font-family: fontpersonalisada;
+
   font-size: 26px;
   line-height: 32px;
   letter-spacing: 0;
@@ -8715,7 +8710,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .not-found-subtitle,
 .tips-news-content .not-found-subtitle {
-  font-family: BentonBook;
+
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
@@ -8724,7 +8719,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .tools-subtitle,
 .tips-news-content .tools-subtitle {
-  font-family: fontpersonalisada;
+
   font-size: 26px;
   line-height: 1.23;
   letter-spacing: 0;
@@ -8748,7 +8743,7 @@ section.module-criteria .criteria_space .list-content li:before {
   line-height: 24px;
   letter-spacing: normal;
   color: #1973b8;
-  font-family: "fontpersonalisada";
+
 }
 
 .tips-news .news,
@@ -8779,7 +8774,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .news-text,
 .tips-news-content .news-text {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8794,7 +8789,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .news-text.important,
 .tips-news-content .news-text.important {
-  font-family: BentonBook;
+
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
@@ -8849,7 +8844,7 @@ section.module-criteria .criteria_space .list-content li:before {
 
 .tips-news .news-image-text .text-content,
 .tips-news-content .news-image-text .text-content {
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -8943,7 +8938,7 @@ section.module-criteria .criteria_space .list-content li:before {
   outline: none;
   font-size: 15px;
   line-height: 24px;
-  font-family: "BentonBook";
+
 }
 
 .tips-news .search-news-text::-webkit-input-placeholder,
@@ -8989,13 +8984,13 @@ section.module-criteria .criteria_space .list-content li:before {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: "fontpersonalisada";
+
   color: #1973b8;
 }
 
 .tips-news .search-news .list-tips-item a,
 .tips-news-content .search-news .list-tips-item a {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -9103,7 +9098,7 @@ section.module-criteria .criteria_space .list-content li:before {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: fontpersonalisada;
+
 }
 
 @media (max-width: 426px) {
@@ -9191,7 +9186,7 @@ footer .row .col.brand {
 footer .row .col a.title {
   margin-bottom: 16px;
   display: block;
-  font-family: BentonBook;
+
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
@@ -9234,7 +9229,7 @@ footer .row .col ul li:last-child {
 }
 
 footer .row .col ul li a.children {
-  font-family: fontpersonalisada;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -9280,7 +9275,7 @@ footer .modal-language .modal-content .modal-body {
 footer .modal-language .modal-content .modal-body h4 {
   font-size: 26px;
   line-height: 32px;
-  font-family: fontpersonalisada;
+
   letter-spacing: 0;
 }
 
@@ -9295,7 +9290,7 @@ footer .modal-language .modal-content .modal-body p {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
-  font-family: BentonBook;
+
 }
 
 footer .modal-language .modal-content .modal-body a {
@@ -9304,7 +9299,7 @@ footer .modal-language .modal-content .modal-body a {
   font-size: 15px;
   line-height: 24px;
   margin: 57px 0px 0px 0px;
-  font-family: fontpersonalisada;
+
   cursor: pointer;
   color: #fff;
 }
@@ -9339,25 +9334,25 @@ footer .modal-language .modal-content .close {
 }
 
 @font-face {
-  font-family: "BentonBook";
+
   src: url("");
   src: url("") format("woff"), url("") format("svg");
 }
 
 @font-face {
-  font-family: "BentonBold";
+
   src: url("");
   src: url("") format("woff"), url("") format("svg");
 }
 
 @font-face {
-  font-family: "fontpersonalisada";
+
   src: url("");
   src: url("") format("woff"), url("") format("svg");
 }
 
 @font-face {
-  font-family: "BentonLight";
+
   src: url("");
   src: url("") format("woff"), url("") format("svg");
 }
@@ -9380,7 +9375,7 @@ footer .modal-language .modal-content .close {
 }
 
 .fc-center h2 {
-  font-family: BentonBold;
+  ;
   font-size: 15px !important;
   font-weight: bold;
   font-stretch: normal;
@@ -9402,7 +9397,7 @@ footer .modal-language .modal-content .close {
 }
 
 .fc-mobile-title h2 {
-  font-family: BentonBold;
+  ;
   font-size: 15px !important;
   font-weight: bold;
   font-stretch: normal;
@@ -9528,7 +9523,7 @@ hr.fc-divider {
   border-style: solid;
   padding: 0 0 40px;
   vertical-align: top;
-  font-family: BentonBook;
+
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -9548,7 +9543,7 @@ hr.fc-divider {
   vertical-align: top;
   text-align: left;
   font-weight: bold;
-  font-family: fontpersonalisada;
+
 }
 
 .fc td.fc-today {
@@ -10093,16 +10088,9 @@ TODO: more distinction between this file and common.css
 --------------------------------------------------------------------------------------------------
 from https://feathericons.com/ and built with IcoMoon
 */
-@font-face {
-  font-family: "fcicons";
-  src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 .fc-icon {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "fcicons" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -10197,7 +10185,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   overflow: visible;
   text-transform: none;
   margin: 0;
-  font-family: inherit;
+
   font-size: inherit;
   line-height: inherit;
   -webkit-appearance: button;
