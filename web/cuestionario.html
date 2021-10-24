@@ -544,7 +544,7 @@
 
 
     <div class="form-group">
-        <button type="submit" class="form-control-submit-button" onclick="displaygeneralValue()">REQUEST</button>
+        <button type="submit" class="form-control-submit-button"  onclick="displaygeneralValue()" >REQUEST</button>
     </div>
 
 
@@ -728,6 +728,7 @@
         .then(response => response.json())
 
         .then(json => console.log(json));
+        window.location.href = '../main.html'
         };
 </script>
 <script>
